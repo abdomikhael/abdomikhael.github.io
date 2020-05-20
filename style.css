@@ -1,0 +1,264 @@
+@font-face
+{
+font-family: 'NimbusSanL';
+	src :url(NimbusSanL-Reg-webfont.eot),
+		 url(NimbusSanL-Reg-webfont.svg),
+		 url(NimbusSanL-Reg-webfont.ttf)
+		 url(NimbusSanL-Reg-webfont.woff);
+	
+
+}
+
+*
+{
+	
+	font-family: 'NimbusSanL';
+	
+	
+
+
+}
+ 
+}
+#bloc
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+#tete
+{
+	font-family: ;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+
+
+
+	
+}
+#photo
+{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #3F51B5;
+	width: 25%;
+	
+
+
+  
+	
+}
+.center
+{
+		 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#nom
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	
+	margin: 50PX;
+	
+	
+}
+#nom h1
+{
+	font-style: normal;
+
+}
+#nom  h1 em
+{
+	color: #3F51B5;
+	font-style: normal;
+	
+
+
+}
+#nom h2
+{
+	
+	font-size: 25px;
+
+}
+#nom h2 em
+{
+	border-bottom :1px #3F51B5 solid;
+	font-style: normal;
+}
+/**left**/
+#left
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin :0;
+	background-color: #3F51B5;
+	width: 25%;
+	
+		color: black;
+		font-size:1em;
+		
+
+}
+#left h2
+{
+	text-align: center; 
+	background-color: #00BCD4;
+	text-transform: uppercase;
+	color: white;
+	font-size: 25px;
+
+}
+
+/** element left**/
+
+
+
+ #aprops
+ {
+ 
+ 	flex :auto;
+ 	text-align: center;
+ }
+ #contact
+ {
+	flex: none;
+ }
+ #loisir figure
+
+ {
+ 	
+ 	display: flex;
+ 	flex :none;
+ 	justify-content: center;
+ 	
+ }
+
+
+ 
+/**RIGHT**/
+#right
+{
+	
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	padding-left: 70px;
+	text-decoration-style: none;
+	
+	
+}
+
+#right h2 
+{
+	text-transform: uppercase;
+	border-bottom :2px #3F51B5 solid;
+	padding-bottom: 8px;
+	
+
+	
+	
+
+}
+#right h3
+{
+	text-transform: uppercase;
+		font-size: 1em;
+		padding: auto;
+}
+#right p
+{
+	font-size: : 0.5em;
+	font-weight: normal;
+	padding: auto;
+
+
+}
+#right img
+{
+	float: left;
+	width: 30px;
+
+	margin-top: 0px;
+
+	margin-right: 8px;
+	color: #3F51B5;	
+
+}
+
+table td
+{
+
+
+width: 25%;
+
+
+
+}
+ .x :before 
+{content:  "\2022"; color: #3F51B5;
+  display: inline-block;
+   width: 1em;
+  margin-left: -1em;
+
+}
+.y  :before
+{content:  "⦿"; color: #3F51B5;
+  display: inline-block;
+   width: 1em;
+  margin-left: -1em;
+
+}
+
+@media all and (max-width: 1024px)
+{
+    #bloc
+    {
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #photo
+    {
+    	display: flex;
+    	order: 1;
+    	width: 100%;
+
+    }
+    #right
+    {
+    	display: flex;
+    	order: 2;
+    
+    }
+    #nom
+    {
+    	display: flex;
+    	order: 2;
+    }
+    #left
+    {
+    	display: flex;
+    	width: 100%;
+    	order: 4;
+
+    }
+    #right
+    {
+    	display: flex;
+    	order: 3;
+
+    }
+
+}
+
+
+
+
+
