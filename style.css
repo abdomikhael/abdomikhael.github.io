@@ -1,40 +1,34 @@
+
 @font-face
 {
-font-family: 'NimbusSanL';
+	font-family: 'NimbusSanL';
 	src :url(NimbusSanL-Reg-webfont.eot),
-		 url(NimbusSanL-Reg-webfont.svg),
-		 url(NimbusSanL-Reg-webfont.ttf)
-		 url(NimbusSanL-Reg-webfont.woff);
-	
-
+		url(NimbusSanL-Reg-webfont.svg),
+		url(NimbusSanL-Reg-webfont.ttf),
+		url(NimbusSanL-Reg-webfont.woff);
 }
 
 *
 {
 	
-	font-family: 'NimbusSanL';
-	
-	
+	font-family: 'NimbusSanL','ariel','sans serif';
 
 
-}
- 
+
 }
 #bloc
 {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-}
+	margin: 0 ;
+	padding: 0px;
+}	
 #tete
 {
-	font-family: ;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-
-
-
 	
 }
 #photo
@@ -43,18 +37,16 @@ font-family: 'NimbusSanL';
 	flex-wrap: wrap;
 	background-color: #3F51B5;
 	width: 25%;
-	
-
-
-  
+	  
 	
 }
 .center
 {
 		 display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+
+  width: 70%;
+  margin: auto;
+  height: 70%;
 }
 
 #nom
@@ -62,34 +54,49 @@ font-family: 'NimbusSanL';
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
+	font-size: 1em;
+	padding-left: 100PX;
+	color: #7b7b7b;
 	
-	margin: 50PX;
+	
 	
 	
 }
-#nom h1
+#nom h4
 {
 	font-style: normal;
-
+		font-size: 50px;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	
+	
+	
+		
 }
-#nom  h1 em
+#nom  h4 em
 {
 	color: #3F51B5;
-	font-style: normal;
-	
+	font-style: normal;	
+
+
 
 
 }
-#nom h2
+#nom h5
 {
 	
-	font-size: 25px;
+		font-size: 20px;
+		padding-bottom: 20px;
+		line-height: 0;
+		
+
 
 }
-#nom h2 em
+#nom h5 em
 {
-	border-bottom :1px #3F51B5 solid;
+	border-bottom :2px #3F51B5 solid;
 	font-style: normal;
+	
 }
 /**left**/
 #left
@@ -97,12 +104,13 @@ font-family: 'NimbusSanL';
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
-	margin :0;
+	justify-content: center;
+
+
 	background-color: #3F51B5;
 	width: 25%;
-	
-		color: black;
-		font-size:1em;
+	color: white;	
+	font-size:1em;
 		
 
 }
@@ -111,7 +119,7 @@ font-family: 'NimbusSanL';
 	text-align: center; 
 	background-color: #00BCD4;
 	text-transform: uppercase;
-	color: white;
+	
 	font-size: 25px;
 
 }
@@ -122,21 +130,25 @@ font-family: 'NimbusSanL';
 
  #aprops
  {
- 
+ 	display: flex;
+ 	flex-direction: column;
  	flex :auto;
  	text-align: center;
  }
  #contact
  {
+ 	display: flex;
+ 	flex-direction: column;
 	flex: none;
  }
- #loisir figure
+ #left figure
 
  {
- 	
  	display: flex;
+ 	flex-direction: row;
+
  	flex :none;
- 	justify-content: center;
+ justify-content: center;
  	
  }
 
@@ -150,55 +162,50 @@ font-family: 'NimbusSanL';
 	flex-wrap: wrap;
 	flex-direction: column;
 	padding-left: 70px;
-	text-decoration-style: none;
+	color: #6d6d6d;
 	
 	
 }
-
 #right h2 
 {
 	text-transform: uppercase;
 	border-bottom :2px #3F51B5 solid;
-	padding-bottom: 8px;
-	
-
-	
-	
-
+	padding-left: 0px;
+	padding-bottom: 15px;
 }
-#right h3
+
+
+#right
 {
-	text-transform: uppercase;
-		font-size: 1em;
-		padding: auto;
+	
+	color: #7b7b7b;
+		
 }
 #right p
 {
-	font-size: : 0.5em;
+	font-size:  1em;
 	font-weight: normal;
-	padding: auto;
-
-
+	color: #7b7b7b;
+	
 }
+
+	
+
 #right img
 {
 	float: left;
-	width: 30px;
-
-	margin-top: 0px;
-
-	margin-right: 8px;
+	margin :0;
+	width: 50px;
+	height: 50px;
 	color: #3F51B5;	
+	margin-right: 4px;
 
 }
 
-table td
+table  td
 {
-
-
-width: 25%;
-
-
+width: 400px;
+border-spacing: 0;
 
 }
  .x :before 
@@ -223,38 +230,49 @@ width: 25%;
         width: auto;
         display: flex;
         flex-wrap: wrap;
+        margin: 0px;
     }
     #photo
     {
     	display: flex;
     	order: 1;
     	width: 100%;
+    	height: 100%;
 
     }
-    #right
+        #nom
     {
     	display: flex;
     	order: 2;
-    
-    }
-    #nom
-    {
-    	display: flex;
-    	order: 2;
-    }
-    #left
-    {
-    	display: flex;
-    	width: 100%;
-    	order: 4;
+    	padding-left: 10px;
 
     }
     #right
     {
     	display: flex;
     	order: 3;
-
+    	padding: 10px;
+    
     }
+
+ 
+      #left
+    {
+    	display: flex;
+    	width: 100%;
+    	order: 4;
+    	margin: 0; 
+
+    	}
+
+
+
+     #right table td
+     {
+     	width: 40%;
+     }
+    	
+
 
 }
 
