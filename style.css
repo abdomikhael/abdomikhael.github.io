@@ -272,29 +272,25 @@ padding-top: 20px;
 @media all and (max-width: 1024px)
 {
 
-	
-
-
-
  p
 	{
-	 font-size: 1em;	
+	 font-size: 2em;	
 	}
 h1
 {
-	font-size: 3em;
+	font-size: 4em;
 }
 h2
 {
-	font-size: 2.5em;
+	font-size: 3.5em;
 }
 h3
 {
-	font-size: 2em;
+	font-size: 3em;
 }
 h4
 {
-	font-size: 1.5em;
+	font-size: 2.5em;
 }
     #bloc
     {
@@ -319,8 +315,9 @@ h4
     	display: flex;
     	flex-wrap: wrap;
     	order: 1;
-    	width: 100%;
+    	
     	margin: 0 ;
+    	padding-right: 0;
 
     }
     #nom
@@ -349,6 +346,7 @@ h4
     	width: 100%;
     	order: 4;
     	margin: 0; 
+    	text-decoration-color: none;
 
     	}
 
