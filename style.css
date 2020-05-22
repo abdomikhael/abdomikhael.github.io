@@ -12,51 +12,61 @@
 {
 	
 	font-family: 'NimbusSanL','ariel','sans serif';
+	
+	margin: 0;
+	
 
-
-
-}
+	}
 #bloc
 {
 	display: flex;
-	flex-wrap: wrap;
 	flex-direction: row;
-	margin: 0 ;
-	padding: 0px;
+	justify-content: center;
+	width: 80em;
+
+	
+	
 }	
 #tete
 {
 	display: flex;
-	flex-wrap: wrap;
+	
 	flex-direction: row;
+	width: 80em;
+	margin:0;
 	
 }
 #photo
 {
 	display: flex;
-	flex-wrap: wrap;
+		height: 15em;
+		width: 20em;
 	background-color: #3F51B5;
-	width: 25%;
-	  
-	
+	margin-left: 141px;
+
+
 }
 .center
 {
-		 display: block;
-
-  width: 70%;
+	
+  display: block;
+  width: 40%;
   margin: auto;
-  height: 70%;
+  height: 40%;
 }
 
 #nom
 {
 	display: flex;
 	flex-wrap: wrap;
+
 	flex-direction: column;
-	font-size: 1em;
-	padding-left: 100PX;
 	color: #7b7b7b;
+	flex: auto;
+	padding-top: 50px;
+	padding-left: 50px;
+	margin-right: 139px;
+	border-right:  1px black solid;
 	
 	
 	
@@ -65,9 +75,8 @@
 #nom h4
 {
 	font-style: normal;
-		font-size: 50px;
-		margin-bottom: 0px;
-		padding-bottom: 0px;
+		font-size: 3em;
+		padding-bottom: 10px;
 	
 	
 	
@@ -85,7 +94,7 @@
 #nom h5
 {
 	
-		font-size: 20px;
+		font-size: 2em;
 		padding-bottom: 20px;
 		line-height: 0;
 		
@@ -104,13 +113,16 @@
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
-	justify-content: center;
-
+		padding-bottom: 20px;
+		width: 20em;
+	
 
 	background-color: #3F51B5;
-	width: 25%;
+	
+
 	color: white;	
 	font-size:1em;
+
 		
 
 }
@@ -120,10 +132,16 @@
 	background-color: #00BCD4;
 	text-transform: uppercase;
 	
-	font-size: 25px;
+	font-size: 2em;
+	padding: 0 7px;
+
 
 }
 
+#left p
+{
+	padding-top: 20px;
+}
 /** element left**/
 
 
@@ -134,12 +152,21 @@
  	flex-direction: column;
  	flex :auto;
  	text-align: center;
+
  }
  #contact
  {
  	display: flex;
  	flex-direction: column;
 	flex: none;
+	padding-bottom: 10px;
+
+	
+
+	}
+ #contact ul
+ {
+ 	padding-top: 10px;
  }
  #left figure
 
@@ -162,7 +189,10 @@
 	flex-wrap: wrap;
 	flex-direction: column;
 	padding-left: 70px;
+	padding-bottom: 20px;
 	color: #6d6d6d;
+	border-right:  1px black solid;
+		
 	
 	
 }
@@ -175,12 +205,7 @@
 }
 
 
-#right
-{
-	
-	color: #7b7b7b;
-		
-}
+
 #right p
 {
 	font-size:  1em;
@@ -195,17 +220,38 @@
 {
 	float: left;
 	margin :0;
-	width: 50px;
-	height: 50px;
-	color: #3F51B5;	
+	width: 30px;
+	height: 30px;
 	margin-right: 4px;
 
+}
+#formation 
+{
+	display: flex;
+	flex-direction: column;
+	flex : auto;
+	margin-bottom: 30px;
+}
+#experience
+{
+	display: flex;
+	flex-direction: column;
+
+	flex : auto;
+	margin-bottom: 30px;
+}
+#langue
+{
+	display: flex;
+	flex-direction: column;
+	flex : auto;
 }
 
 table  td
 {
-width: 400px;
+width: 300px;
 border-spacing: 0;
+padding-top: 20px;
 
 }
  .x :before 
@@ -225,6 +271,10 @@ border-spacing: 0;
 
 @media all and (max-width: 1024px)
 {
+	*
+	{
+		margin : 0;
+	}
     #bloc
     {
         width: auto;
@@ -265,11 +315,18 @@ border-spacing: 0;
 
     	}
 
-
+    	#contact ul
+    	{
+    		
+ 			text-align: center;
+ 			list-style-type: none;
+    	}
 
      #right table td
      {
      	width: 40%;
+
+
      }
     	
 
