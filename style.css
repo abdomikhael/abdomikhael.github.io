@@ -42,7 +42,7 @@
 		height: 15em;
 		width: 20em;
 	background-color: #3F51B5;
-	margin-left: 141px;
+	margin-left: 140px;
 
 
 }
@@ -272,26 +272,6 @@ padding-top: 20px;
 @media all and (max-width: 1024px)
 {
 
- p
-	{
-	 font-size: 2em;	
-	}
-h1
-{
-	font-size: 4em;
-}
-h2
-{
-	font-size: 3.5em;
-}
-h3
-{
-	font-size: 3em;
-}
-h4
-{
-	font-size: 2.5em;
-}
     #bloc
     {
         width: auto;
@@ -306,6 +286,7 @@ h4
    	flex-direction: column;
    	flex-wrap: wrap;
    	justify-content: normal;
+   	
    	   	
    
    
@@ -315,18 +296,21 @@ h4
     	display: flex;
     	flex-wrap: wrap;
     	order: 1;
+    	flex :auto;
     	
     	margin: 0 ;
-    	padding-right: 0;
+    	padding: 0;
+    	width: 100%;
 
     }
     #nom
     {
     	display: flex;
-    	order: 2;
-    	margin: 0;
- 
     	
+    	order: 2;
+    	width: 100%;
+    	padding: 0 ;
+    	margin:	0; 	
 
 
     }
@@ -359,7 +343,7 @@ h4
 
      #right table td
      {
-     	width: 30%;
+     	width: 20%;
 
 
 
