@@ -201,6 +201,8 @@
 	border-bottom :2px #3F51B5 solid;
 	padding-left: 0px;
 	padding-bottom: 15px;
+	color: #424242;
+	
 }
 
 
@@ -222,7 +224,8 @@
 	width: 30px;
 	height: 30px;
 	margin-right: 4px;
-	color: red;
+	
+	;
 
 }
 #formation 
