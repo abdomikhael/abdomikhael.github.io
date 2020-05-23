@@ -337,15 +337,14 @@ padding-top: 20px;
     	width: 100%;
     	order: 4;
     	margin: 0; 
-    	text-decoration-color: none;
+    
 
     	}
 
     	#contact ul
     	{
-    		
- 			text-align: center;
- 			list-style-type: none;
+    			text-decoration-color: none;
+ 		
     	}
 
      #right table td
