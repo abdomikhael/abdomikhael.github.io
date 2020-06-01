@@ -8,51 +8,51 @@
 		url(NimbusSanL-Reg-webfont.woff);
 }
 
-*
+body
 {
 	
 	font-family: 'NimbusSanL','ariel','sans serif';
+	    border: 1px solid #607D8B;
+    margin: auto;
+    max-width: 900px;
 	
-	margin: 0;
 	
 
-	}
-#bloc
+	}	
+	
+header
 {
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	width: 80em;
-
-	
-	
-}	
-#tete
-{
-	display: flex;
-	
-	flex-direction: row;
-
-	margin:0;
-	
+	flex: auto;
 }
+	
+
 #photo
 {
 	display: flex;
-		height: 15em;
-		width: 20em;
+	justify-content:center;
+
+width: 282px;
+
 	background-color: #3F51B5;
-	margin-left: 140px;
+		border-right : 1px black solid;
+
+
+}
+#photo-abdo
+{
+	margin: 0px;
+	width: 200px;
+	
+	padding: 50px;
+	text-align: center;
 
 
 }
 .center
 {
 	
-  display: block;
-  width: 60%;
-  margin: auto;
-  height: 60%;
+  width: 150px;
 }
 
 #nom
@@ -60,12 +60,11 @@
 	display: flex;
 	flex-direction: column;
 	color: #7b7b7b;
-	flex: auto;
-		padding-top: 50px;
-	padding-left: 50px;
-	margin-right: 139px;
+	width: 65%;
+	padding: 50px;
 
-	border-right:  1px black solid;
+line-height: 10%;
+
 	
 	
 	
@@ -76,6 +75,7 @@
 	font-style: normal;
 		font-size: 3em;
 		padding-bottom: 10px;
+		margin-bottom: 0;
 	
 	
 	
@@ -95,7 +95,7 @@
 	
 		font-size: 2em;
 		padding-bottom: 20px;
-		
+		margin-bottom: 0;
 		
 
 
@@ -106,21 +106,28 @@
 	font-style: normal;
 	
 }
+main
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+	}
 /**left**/
 #left
 {
 	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-		padding-bottom: 20px;
-		width: 20em;
 	
+	flex-direction: column;
+	flex-grow: 2 auto;
 
+	width: 35%;
 	background-color: #3F51B5;
 	
 
 	color: white;	
 	font-size:1em;
+		border-right : 1px black solid;
 
 		
 
@@ -132,7 +139,12 @@
 	text-transform: uppercase;
 	
 	font-size: 2em;
-	padding: 0 7px;
+	
+		padding: 8px;
+		margin: 0px;
+	
+
+	
 
 
 }
@@ -141,44 +153,47 @@
 {
 	padding-top: 20px;
 }
+
+
 /** element left**/
+ 
 
-
+ #contact
+ {
+ 	display: flex;
+ 	flex-direction: column;
+ 	flex:none;
+	
+	}
+ 
 
  #aprops
  {
  	display: flex;
  	flex-direction: column;
- 	flex :auto;
+ 	flex: auto;
+
  	
-
  }
- #aprops ul li
- {
- 	padding-top: 10px;
- }
- #contact
- {
- 	display: flex;
- 	flex-direction: column;
-	flex: none;
-	padding-bottom: 10px;
 
-	
+#loisir	
 
-	}
- #contact ul
+
+
+
+ #left ul li
  {
- 	padding-top: 10px;
- }
+ 	padding: 10px 0 ;
+
+ 	 }
+ 
  #left figure
 
  {
  	display: flex;
  	flex-direction: row;
-
- 	flex :none;
  justify-content: center;
+ flex:none;
  	
  }
 
@@ -191,10 +206,10 @@
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
-	padding-left: 70px;
-	padding-bottom: 20px;
+
+	
 	color: #6d6d6d;
-	border-right:  1px black solid;
+
 		
 	
 	
@@ -203,9 +218,9 @@
 {
 	text-transform: uppercase;
 	border-bottom :2px #3F51B5 solid;
-	padding-left: 0px;
-	padding-bottom: 15px;
+	margin-left: 50px;
 	color: #424242;
+
 	
 }
 
@@ -224,10 +239,11 @@
 #right img
 {
 	float: left;
-	margin :0;
-	width: 30px;
-	height: 30px;
-	margin-right: 4px;
+	
+	width: 40px;
+	height: 40px;
+	margin: 0 10px;
+
 	
 	;
 
@@ -258,7 +274,7 @@ table  td
 {
 width: 300px;
 border-spacing: 0;
-padding-top: 20px;
+padding-left: 40px;
 
 }
  .x :before 
@@ -279,7 +295,7 @@ padding-top: 20px;
 @media all and (max-width: 1024px)
 {
 
-    #bloc
+   main
     {
         width: auto;
         display: flex;
@@ -287,7 +303,7 @@ padding-top: 20px;
         
         justify-content: normal;
     }
-    #tete
+    header
    {
    	display: flex;
    	flex-direction: column;
