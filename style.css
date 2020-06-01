@@ -32,7 +32,7 @@ header
 	display: flex;
 	justify-content:center;
 
-width: 282px;
+		width: 35%;
 
 	background-color: #3F51B5;
 		border-right : 1px black solid;
@@ -42,7 +42,8 @@ width: 282px;
 #photo-abdo
 {
 	margin: 0px;
-	width: 200px;
+	width: 250px;
+
 	
 	padding: 50px;
 	text-align: center;
@@ -59,6 +60,7 @@ width: 282px;
 {
 	display: flex;
 	flex-direction: column;
+	flex-wrap: wrap;
 	color: #7b7b7b;
 	width: 65%;
 	padding: 50px;
@@ -73,7 +75,7 @@ line-height: 10%;
 #nom h4
 {
 	font-style: normal;
-		font-size: 3em;
+		font-size: 250%;
 		padding-bottom: 10px;
 		margin-bottom: 0;
 	
@@ -93,7 +95,7 @@ line-height: 10%;
 #nom h5
 {
 	
-		font-size: 2em;
+		font-size: 200%;
 		padding-bottom: 20px;
 		margin-bottom: 0;
 		
@@ -119,8 +121,6 @@ main
 	display: flex;
 	
 	flex-direction: column;
-	flex-grow: 2 auto;
-
 	width: 35%;
 	background-color: #3F51B5;
 	
@@ -138,9 +138,8 @@ main
 	background-color: #00BCD4;
 	text-transform: uppercase;
 	
-	font-size: 2em;
-	
-		padding: 8px;
+	font-size: 125%;
+	padding: 8px;
 		margin: 0px;
 	
 
@@ -163,29 +162,33 @@ main
  	display: flex;
  	flex-direction: column;
  	flex:none;
-	
-	}
- 
-
+}
+address
+{ font-style: normal;
+    padding: 10% 15% 15% 15%;
+    line-height: 1.2;} 
+ #left a
+ {
+ 	text-decoration: none;
+ 	color: white;
+ }
  #aprops
  {
  	display: flex;
  	flex-direction: column;
  	flex: auto;
+ 	
 
  	
  }
-
-#loisir	
-
-
-
-
- #left ul li
+ #aprops p
  {
- 	padding: 10px 0 ;
+ 	    padding: 10% 15% 125% 15%;
+    line-height: 1.5;
+    text-align: justify;
+ }
 
- 	 }
+
  
  #left figure
 
@@ -206,6 +209,8 @@ main
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
+	width: 65%;
+	padding : 4px 0 2px 0;
 
 	
 	color: #6d6d6d;
@@ -218,7 +223,9 @@ main
 {
 	text-transform: uppercase;
 	border-bottom :2px #3F51B5 solid;
-	margin-left: 50px;
+	margin: auto;
+	padding-bottom: 1%;
+	width: 90%;
 	color: #424242;
 
 	
@@ -231,6 +238,7 @@ main
 	font-size:  1em;
 	font-weight: normal;
 	color: #7b7b7b;
+	padding-top: 0;
 	
 }
 
@@ -240,9 +248,9 @@ main
 {
 	float: left;
 	
-	width: 40px;
-	height: 40px;
-	margin: 0 10px;
+	width: 30px;
+	height: 30px;
+	margin: 0 20px;
 
 	
 	;
@@ -272,12 +280,31 @@ main
 
 table  td
 {
-width: 300px;
+width: 40%;
 border-spacing: 0;
-padding-left: 40px;
+padding-right: 10%;
+
 
 }
+
+
+.x
+{
+	
+	width: 7%;
+		padding: 0 20%  0 10%;
+	
+}
+.y
+{
+
+	width: 7%;
+	padding: 0 10%  0 10%;
+	margin-top: 0;
+}
+
  .x :before 
+
 {content:  "\2022"; color: #3F51B5;
   display: inline-block;
    width: 1em;
