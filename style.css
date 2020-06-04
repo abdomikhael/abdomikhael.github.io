@@ -72,7 +72,7 @@ line-height: 10%;
 	
 	
 }
-#nom h4
+ h4
 {
 	font-style: normal;
 		font-size: 250%;
@@ -123,8 +123,6 @@ main
 	flex-direction: column;
 	width: 35%;
 	background-color: #3F51B5;
-	
-
 	color: white;	
 	font-size:1em;
 		border-right : 1px black solid;
@@ -225,7 +223,7 @@ address
 	border-bottom :2px #3F51B5 solid;
 	margin: auto;
 	padding-bottom: 1%;
-	width: 90%;
+	width: 80%;
 	color: #424242;
 
 	
@@ -251,9 +249,6 @@ address
 	width: 30px;
 	height: 30px;
 	margin: 0 20px;
-
-	
-	;
 
 }
 #formation 
@@ -281,7 +276,7 @@ address
 table  td
 {
 width: 40%;
-border-spacing: 0;
+
 padding-right: 10%;
 
 
@@ -291,15 +286,15 @@ padding-right: 10%;
 .x
 {
 	
-	width: 7%;
-		padding: 0 20%  0 10%;
+	width: auto;
+		padding-left :10%;
 	
 }
 .y
 {
 
-	width: 7%;
-	padding: 0 10%  0 10%;
+	width: 20%;
+	padding-left:10%;
 	margin-top: 0;
 }
 
@@ -307,35 +302,49 @@ padding-right: 10%;
 
 {content:  "\2022"; color: #3F51B5;
   display: inline-block;
-   width: 1em;
+   width: auto;
   margin-left: -1em;
+  padding-right: 10px;
 
 }
 .y  :before
 {content:  "⦿"; color: #3F51B5;
   display: inline-block;
-   width: 1em;
+   width: 	auto;
   margin-left: -1em;
+   padding-right: 10px;
 
 }
+/* responsive*/
 
-@media all and (max-width: 1024px)
+@media all and (max-width: 800px)
 {
 
+	body
+	{
+	
+		margin: 0;
+
+	}
    main
     {
-        width: auto;
-        display: flex;
-        flex-wrap: wrap;
         
-        justify-content: normal;
+        display: flex;
+        flex-direction: column-reverse;
+       
+        width: 100%;
+        margin: auto;
+     
+     
+        
+       
     }
     header
    {
    	display: flex;
    	flex-direction: column;
    	flex-wrap: wrap;
-   	justify-content: normal;
+   	
    	
    	   	
    
@@ -343,66 +352,299 @@ padding-right: 10%;
    }
     #photo
     {
-    	display: flex;
-    	flex-wrap: wrap;
-    	order: 1;
-    	flex :auto;
-    	
+    
+
+    	border : 1px black solid;
     	margin: 0 ;
-    	padding: 0;
     	width: 100%;
 
     }
     #nom
     {
-    	display: flex;
+
     	
-    	order: 2;
+
     	width: 100%;
-    	padding: 0 ;
-    	margin:	0; 	
+    	padding: 30px 0;
+    	text-align: center;
 
-
-    }
-    #right
+}
+    	#right
     {
-    	display: flex;
-    	order: 3;
-    	padding: 10px;
-    	margin-left: 7px;
-    
-    }
+    	
+    	
+    	width: 100%;
+    	margin: auto;
+    	
+}
+.x
+{
+	width: auto;
+}
 
  
-      #left
+     
+#left
+
     {
-    	display: flex;
+    
     	width: 100%;
-    	order: 4;
-    	margin: 0; 
+    	font-size: 1em;
+    	flex: auto;
+    	border-right: none;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+    }
+
+
+	
+#left h2
+	{
+		width: auto;
+		font-size: 1.5em;
+
+	
+	
+	}
+#left figure
+	 {
+	 	margin-right: 0;
+    
+    }
+    	
+address
+{ 
+   
+    
+ 	 padding: 10px 0;
+	text-align: center;
+
+ }
+ #aprops
+ {
+ 	display: flex;
+ 	flex-direction: column;
+ 	flex: none;
+ 	
+
+ 	
+ }
+ #aprops p
+ {
+ 	    padding: 10px 0;
+    line-height: 1.5;
+    text-align: center;
+ }
+ @media all and (max-width: 791px)
+ {
+ .x
+{
+	width: auto;
+ }
+}
+
+
+@media all and (max-width: 425px)
+
+ {
+
+body
+	{
+	
+		margin: 0;
+		border: none;
+
+	}
+ main
+    {
+        
+        display: flex;
+        flex-direction: column-reverse;
+        flex :inline;
+        width: 100%;
+     
+     
+        
+       
+    }
+ header
+   {
+   	display: flex;
+   	flex-direction: column;
+   	flex-wrap: wrap;
+   	
+   	
+   	   	
+   
+   
+   }
+#photo
+    {
     
 
-    	}
+    	border : 1px black solid;
+    	margin: 0 ;
+    	width: 100%;
 
-    	#contact 
-    	{
-    			text-decoration-color: none;
- 		
-    	}
+    }
+#nom
+    {
 
-     #right table td
-     {
-     	width: 20%;
+    	width: 100%;
+    	padding: 30px 0;
+    	text-align: center;
+    }
 
-
-
-     }
+#right
+    {
     	
+    	
+    	width: 90%;
+    		
+    }
+#right  p
+{
+	width: auto;
+}
+h2
+{
+	font-size: 120%
+}
+h3
+{
+	font-size: 80%;
+}
+#wright img
+{
+	width: auto;
+}
+
+ tr
+{
+	display: flex;
+	flex-direction: column;
+}
+  
+#right p
+{
+	width: auto;
+}
+
+#left
+    {
+    
+    	width: 100%;
+    	font-size: 0.8em;
+    	flex: auto;
+    	border-right: none;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+    }
+
+
+	
+
+#left h2
+	{
+		width: auto;
+		font-size: 1.5em;
+
+	
+	
+	}
+
+    	
+address
+{ 
+   
+    
+ 	 padding: 10px 0;
+	text-align: center;
+
+ }
+ #aprops
+ {
+ 	display: flex;
+ 	flex-direction: column;
+ 	flex: none;
+ 	
+
+ 	
+ }
+ #aprops p
+ {
+ 	    padding: 10px 0;
+    line-height: 1.5;
+    text-align: center;
+ }
+
+ #right table td
+{
+    width: auto;
+    padding-left: 20px;
+ 
+
+ } 
+ #right
+ {
+ margin :auto;
+ }
+  p
+  {
+      width: auto;
+  
+  }  
 
 
 }
 
 
+@media all and (max-width: 375px)
+{    	
+
+h5
+{
+	font-size: 100%;
+}
+h2
+{
+	font-size: 85%;
+}
+h3
+{
+	font-size: 85%;
+}
+
+#right p
+{
+	font-size: 80%;
+}
+
+#right img
+{
+	width: 20px;
+	height: 18px;
+	margin : 0 5px;
+}
+#left
+{
+	width: 100%;
+}
+
+  
+
+}
+
+@media all and (max-width: 325px)
+
+{
+h4
+{
+font-size: 200%;
+
+}
+
+	
 
 
 
