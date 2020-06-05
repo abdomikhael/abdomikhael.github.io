@@ -35,7 +35,7 @@ header
 		width: 35%;
 
 	background-color: #3F51B5;
-		border-right : 1px black solid;
+	
 
 
 }
@@ -125,7 +125,7 @@ main
 	background-color: #3F51B5;
 	color: white;	
 	font-size:1em;
-		border-right : 1px black solid;
+	
 
 		
 
@@ -237,8 +237,11 @@ address
 	font-weight: normal;
 	color: #7b7b7b;
 	padding-top: 0;
+
 	
+
 }
+
 
 	
 
@@ -251,6 +254,7 @@ address
 	margin: 0 20px;
 
 }
+
 #formation 
 {
 	display: flex;
@@ -266,13 +270,36 @@ address
 	flex : auto;
 	margin-bottom: 30px;
 }
+#experience p
+{
+		width: unset;
+}
 #langue
 {
 	display: flex;
 	flex-direction: column;
 	flex : auto;
+	padding-left: 20px;
+
+
+}
+#langue p
+{
+
+	width: max-content;
+	padding-left: 20px;
+	
 }
 
+#langue 
+{
+	padding: auto;
+}
+#langue h3
+{
+	width: max-content;
+
+}
 table  td
 {
 width: 40%;
@@ -286,14 +313,15 @@ padding-right: 10%;
 .x
 {
 	
-	width: auto;
-		padding-left :10%;
+	width: 30%;
+padding-left :10%;
+padding-top: 0,
 	
 }
 .y
 {
 
-	width: 20%;
+	width: 30%;
 	padding-left:10%;
 	margin-top: 0;
 }
@@ -359,7 +387,7 @@ padding-right: 10%;
     	width: 100%;
 
     }
-    #nom
+#nom
     {
 
     	
@@ -369,13 +397,17 @@ padding-right: 10%;
     	text-align: center;
 
 }
-    	#right
+#right
     {
     	
     	
     	width: 100%;
     	margin: auto;
     	
+}
+#experience p
+{
+		width: max-content;
 }
 .x
 {
@@ -435,15 +467,18 @@ address
     line-height: 1.5;
     text-align: center;
  }
+ {
+
+ }
  @media all and (max-width: 791px)
  {
  .x
 {
 	width: auto;
  }
+
+
 }
-
-
 @media all and (max-width: 425px)
 
  {
@@ -504,7 +539,10 @@ body
     }
 #right  p
 {
-	width: auto;
+	width: max-content;
+}
+#experience p
+
 }
 h2
 {
@@ -596,6 +634,8 @@ address
   }  
 
 
+
+
 }
 
 
@@ -606,10 +646,15 @@ h5
 {
 	font-size: 100%;
 }
-h2
+#right h2
 {
 	font-size: 85%;
+	margin:0 0 0 2px ;
+	width: 270px;
+	padding: 0;
+
 }
+
 h3
 {
 	font-size: 85%;
@@ -618,19 +663,20 @@ h3
 #right p
 {
 	font-size: 80%;
+	width: auto;
+
+}
+#langue p
+{
+	width: 100px;
 }
 
 #right img
 {
 	width: 20px;
-	height: 18px;
+	height: 15px;
 	margin : 0 5px;
 }
-#left
-{
-	width: 100%;
-}
-
   
 
 }
