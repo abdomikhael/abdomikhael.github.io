@@ -243,7 +243,11 @@ address
 }
 
 
+tr
+{
 	
+	width: auto;
+}	
 
 #right img
 {
@@ -270,16 +274,14 @@ address
 	flex : auto;
 	margin-bottom: 30px;
 }
-#experience p
-{
-		width: unset;
-}
+
 #langue
 {
 	display: flex;
 	flex-direction: column;
 	flex : auto;
 	padding-left: 20px;
+	padding: auto;
 
 
 }
@@ -291,10 +293,8 @@ address
 	
 }
 
-#langue 
-{
-	padding: auto;
-}
+
+
 #langue h3
 {
 	width: max-content;
@@ -303,6 +303,8 @@ address
 table  td
 {
 width: 40%;
+
+
 
 padding-right: 10%;
 
@@ -348,19 +350,14 @@ padding-top: 0,
 @media all and (max-width: 800px)
 {
 
-	body
-	{
-	
-		margin: 0;
 
-	}
    main
     {
         
         display: flex;
         flex-direction: column-reverse;
        
-        width: 100%;
+        
         margin: auto;
      
      
@@ -402,19 +399,16 @@ padding-top: 0,
     	
     	
     	width: 100%;
-    	margin: auto;
+    
     	
 }
 #experience p
 {
 		width: max-content;
 }
-.x
-{
-	width: auto;
-}
 
- 
+
+
      
 #left
 
@@ -426,6 +420,7 @@ padding-top: 0,
     	border-right: none;
         border-top: 1px solid #ccc;
         border-bottom: 1px solid #ccc;
+        padding-right: 0px;
     }
 
 
@@ -467,18 +462,10 @@ address
     line-height: 1.5;
     text-align: center;
  }
- {
+ 
 
  }
- @media all and (max-width: 791px)
- {
- .x
-{
-	width: auto;
- }
 
-
-}
 @media all and (max-width: 425px)
 
  {
@@ -534,19 +521,36 @@ body
     {
     	
     	
-    	width: 90%;
+    	width: 100%;
     		
     }
 #right  p
 {
-	width: max-content;
+	width: auto;
 }
-#experience p
-
-}
-h2
+#langue 
 {
-	font-size: 120%
+	padding-left: 0;
+}
+#langue p
+{
+	width: 200px;
+}
+
+#experience
+{
+	margin-bottom: 0;
+}
+#formation
+{
+	margin-bottom: 0;	
+}
+#right h2
+{
+	width: auto;
+	display: initial;
+
+	
 }
 h3
 {
@@ -556,17 +560,15 @@ h3
 {
 	width: auto;
 }
+ #right table td
+{
+    width: auto;
+    
+ 
 
- tr
-{
-	display: flex;
-	flex-direction: column;
-}
-  
-#right p
-{
-	width: auto;
-}
+ } 
+
+
 
 #left
     {
@@ -616,26 +618,35 @@ address
     text-align: center;
  }
 
- #right table td
-{
-    width: auto;
-    padding-left: 20px;
+
+ 
  
 
- } 
- #right
- {
- margin :auto;
- }
-  p
-  {
-      width: auto;
-  
-  }  
 
 
 
+}
+@media all and (max-width: 414px)
+{
+	tr
+	{
+		display: flex;
+		flex-direction: column;
+	}
 
+	td
+	{
+		padding-left: 20px;
+	}
+#right h2
+{
+	width: 90%;
+	font-size: 100%;
+}	
+#right img
+{
+	height: 20px;
+}
 }
 
 
@@ -646,13 +657,29 @@ h5
 {
 	font-size: 100%;
 }
+
 #right h2
 {
-	font-size: 85%;
+	font-size: 100%;
 	margin:0 0 0 2px ;
-	width: 270px;
-	padding: 0;
+	width: max-content;
+	width: -moz-max-content;
+	display: flex;
+    justify-content: flex-start;
 
+}
+#right img
+{
+	padding-left: 40px
+}
+tr
+{
+	display: flex;
+	flex-direction: column;
+}
+td
+{
+	padding-left: 20px;
 }
 
 h3
@@ -663,9 +690,13 @@ h3
 #right p
 {
 	font-size: 80%;
-	width: auto;
+	width: 250px;
 
 }
+#langue
+{
+	padding-left: 20px;
+} 
 #langue p
 {
 	width: 100px;
