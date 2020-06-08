@@ -567,7 +567,7 @@ address
 
 
 }
-@media all and (max-width: 414px)
+@media all and  (min-width: 414px)
 {
 	tr
 	{
