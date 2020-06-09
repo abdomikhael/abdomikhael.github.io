@@ -203,6 +203,10 @@ address
 tr
 {
 	
+	width: fit-content;
+}
+table
+{
 	width: auto;
 }	
 
@@ -305,7 +309,10 @@ table  td
 
 @media all and (max-width: 800px)
 {
-
+body
+{
+	border:none;
+}
 
 main
 {
@@ -322,6 +329,10 @@ header
    	flex-direction: column;
    	flex-wrap: wrap;
    	
+ }
+ table
+ {
+ 	width: auto;
  }
 #photo
  {
@@ -348,7 +359,7 @@ header
 }
 #experience p
 {
-		width: max-content;
+		width: auto;
 }
 
 
@@ -450,6 +461,11 @@ body
     	width: 100%;
 
     }
+#photo-abdo
+{
+	width: 200px;
+}    
+
 #nom
     {
 
@@ -517,9 +533,8 @@ h3
     	width: 100%;
     	font-size: 0.8em;
     	flex: auto;
-    	border-right: none;
-        border-top: 1px solid #ccc;
-        border-bottom: 1px solid #ccc;
+    
+		border : 1px black solid;
     }
 
 
@@ -567,7 +582,7 @@ address
 
 
 }
-@media all and  (min-width: 414px)
+@media all and  (max-width: 414px)
 {
 	tr
 	{
@@ -649,7 +664,7 @@ h3
 	height: 15px;
 	margin : 0 5px;
 }
-  
+
 
 }
 
@@ -660,7 +675,9 @@ h4
 {
 font-size: 200%;
 
+
 }
+
 	
 
 }
