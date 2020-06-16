@@ -83,6 +83,7 @@ header
 	font-style: normal;
 	
 }
+
 main
 {
 	display: flex;
@@ -149,16 +150,29 @@ address
     text-align: justify;
  }
 
-
- 
- #left figure
-
+.icons
  {
  	display: flex;
  	flex-direction: row;
  	justify-content: center;
   	flex:none;
+  	padding-left: 11px;
+  	height :100px;
+  
+ }
+ .icon
+
+ {
  	
+ 	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    margin: auto;
  }
 
 
@@ -186,7 +200,7 @@ address
 	border-bottom :2px #3F51B5 solid;
 	margin: auto;
 	padding-bottom: 1%;
-	width: 80%;
+	width: 85%;
 	color: #424242;
 }
 
@@ -210,13 +224,11 @@ table
 	width: auto;
 }	
 
-#right img
+#right i
 {
 	float: left;
-	
-	width: 30px;
-	height: 30px;
-	margin: 0 20px;
+	color: #3F51B5;
+	margin: 0 10px 0 50px;
 
 }
 
@@ -503,8 +515,8 @@ body
 }
 #right h2
 {
-	width: auto;
-	display: initial;
+width: 80%;
+	
 
 	
 }
@@ -593,11 +605,8 @@ address
 	{
 		padding-left: 20px;
 	}
-#right h2
-{
-	width: 90%;
-	font-size: 100%;
-}	
+
+	
 #right img
 {
 	height: 20px;
@@ -613,20 +622,23 @@ h5
 	font-size: 100%;
 }
 
-#right h2
+#right--head
 {
-	font-size: 100%;
+	
 	margin:0 0 0 2px ;
-	width: max-content;
-	width: -moz-max-content;
+	width: 70%;
 	display: flex;
-    justify-content: flex-start;
+
+	
+ 
 
 }
 #right img
 {
 	padding-left: 40px
 }
+
+
 tr
 {
 	display: flex;
